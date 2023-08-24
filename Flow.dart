@@ -12,4 +12,6 @@ void main() {
   for (final objects in object) {
     print("Data ke-$objects");
   }
+
+  object.where((a) => a.contains("1")).forEach(print);
 }
