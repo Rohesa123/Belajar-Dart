@@ -7,6 +7,9 @@ void main() {
     'tags': ['saturn'],
     'url': '//path/to/sarturn.jpg'
   };
-
+  print(name);
+  print(year);
+  print(antennaDiameter);
+  print(flyByObject);
   print(image['tags']);
 }
